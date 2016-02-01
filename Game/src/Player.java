@@ -7,5 +7,7 @@ public class Player {
 
 	System.out.print("Enter character name   ===>>");
 	characterName = scanner1.nextLine();
+	
+	
 	}
 }
