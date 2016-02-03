@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class Player {
+int health = 40;
+int attack = 20;
+{
 	
 	{
 	String characterName;
