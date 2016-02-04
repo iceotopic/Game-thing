@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Player {
 	
+	//initial hp
 	private int hp=50;
 	
 	public Player()
@@ -15,6 +16,7 @@ public class Player {
 	System.out.print("Hi");
 	System.out.print(characterName);
 	System.out.print(" ! ! !");
+	
 	}
 	
 	
