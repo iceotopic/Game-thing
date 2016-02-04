@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class Player {
+int health = 40;
+int attack = 20;
+{
 	
 	//initial hp
 	private int hp=50;
