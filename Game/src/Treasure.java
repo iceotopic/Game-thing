@@ -28,6 +28,10 @@ public class Treasure {
 
 	}
 	
+	public void display ()
+	{
+		System.out.println("The " + rewardType + "gives you " + Chromosomes + " Chromosomes.");
+	}
 	
 
 }
