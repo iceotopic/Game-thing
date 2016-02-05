@@ -4,7 +4,7 @@ int health = 40;
 int attack = 20;
 
 	
-	//initial hp
+	//initial health point (hp)
 	private int hp=50;
 	
 	public Player()
@@ -27,4 +27,10 @@ int attack = 20;
 	{
 		return hp;
 	}
+	public void attack(Enemy e)
+	{
+		e.defend(attack);
+	}
+	
 }
+
