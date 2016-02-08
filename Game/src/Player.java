@@ -31,6 +31,9 @@ int attack = 20;
 	{
 		e.defend(attack);
 	}
-	
+	public void defend(Player p)
+	{
+		 int survivor = health - 15;
+	}
 }
 
