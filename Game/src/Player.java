@@ -35,6 +35,12 @@ public class Player {
 	{
 		e.defend(attack);
 	}
+	public void defend(int a)
+	{
+		 int survivor = health - a;
+	}
+
+
 	
 }
 
