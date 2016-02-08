@@ -1,7 +1,10 @@
 import java.util.Scanner;
 public class Player {
-	
-	//initial health
+
+
+
+	//initial health point (hp)
+
 	private int hp=50;
 	private int attack=20; 
 	
@@ -28,4 +31,10 @@ public class Player {
 	{
 		return hp;
 	}
+	public void attack(Enemy e)
+	{
+		e.defend(attack);
+	}
+	
 }
+
