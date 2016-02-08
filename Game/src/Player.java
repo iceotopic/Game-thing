@@ -37,7 +37,7 @@ public class Player {
 	}
 	public void defend(int a)
 	{
-		 int survivor = health - a;
+		 int survivor = hp - a;
 	}
 
 
