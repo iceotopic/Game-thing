@@ -8,7 +8,7 @@ public class Game {
 		
 		Room[] rooms = new Room[30];
 		
-		for (int i = 0; i <= rooms.length; i++)
+		for (int i = 0; i < rooms.length; i++)
 		{
 			rooms[i] = new Room();
 		}
