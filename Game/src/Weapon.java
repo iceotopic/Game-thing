@@ -9,18 +9,29 @@ public class Weapon {
 	
 	public Weapon()
 	{
-		
+		name = "Sword";
+		maxUse = 999999999;
+		useCount = 0;
+		attackPoints = 5;
 	}
 	
 	public Weapon(String weaponName)
 	{
-		if (weaponName.equals("Axe"))
+		if (weaponName.equalsIgnoreCase("Axe"))
 		{
 			name = "axe";
 			maxUse= 10;
 			useCount = 0;
-			attackPoints = 5;			
+			attackPoints = 10;			
 		}
+		else if (weaponName.equalsIgnoreCase("thSword"))
+		{
+			name = " ";
+			maxUse= 00;
+			useCount = 0;
+			attackPoints = 15;
+		}
+		
 	}
 	public int use()
 	{
