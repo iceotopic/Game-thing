@@ -1,6 +1,6 @@
 
 public class Enemy {
-	int health = 30;
+	int health = 45;
 	int attack = 5;
 	
 	private int hp=50;
