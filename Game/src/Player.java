@@ -1,11 +1,12 @@
 import java.util.Scanner;
 public class Player {
-int health = 40;
-int attack = 20;
 
-	
+
+
 	//initial health point (hp)
+
 	private int hp=50;
+	private int attack=10; 
 	
 	public Player()
 	{
@@ -14,11 +15,14 @@ int attack = 20;
 	Scanner scanner1 = new Scanner(System.in);
 
 	System.out.print("Enter character name   ===>>");
-	characterName = scanner1.nextLine();
+	characterName = scanner1.                     nextLine();
 	
 	System.out.print("Hi");
 	System.out.print(characterName);
-	System.out.print(" ! ! !");
+	System.out.print("!");
+	
+	//Add something to use weapon 
+	//Eating – increases the players health by 10
 	
 	}
 	
@@ -31,9 +35,15 @@ int attack = 20;
 	{
 		e.defend(attack);
 	}
-	public void defend(Player p)
+	public void defend(int a)
 	{
-		 int survivor = health - 15;
+		 int survivor = hp - a;
+	}
+
+	public class Weapon
+	{
+	public static void addAttack()	
+	}
 	}
 }
 

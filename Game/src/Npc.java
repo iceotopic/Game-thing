@@ -13,6 +13,7 @@ public class Npc {
 		message = "I don't know what to say";
 	}
 	
+	
 	public String getMessage()
 	{
 		return message;
