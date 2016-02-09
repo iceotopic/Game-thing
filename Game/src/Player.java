@@ -6,7 +6,7 @@ public class Player {
 	//initial health point (hp)
 
 	private int hp=50;
-	private int attack=20; 
+	private int attack=10; 
 	
 	public Player()
 	{
