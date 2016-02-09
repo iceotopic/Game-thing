@@ -40,7 +40,10 @@ public class Player {
 		 int survivor = hp - a;
 	}
 
-
-	
+	public class Weapon
+	{
+	public static void addAttack()	
+	}
+	}
 }
 
