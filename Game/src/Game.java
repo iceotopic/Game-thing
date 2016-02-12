@@ -8,10 +8,12 @@ public class Game {
 	public static void main(String[] args) {
 
 	randNum = rand.nextInt(30);
-		if (randNum<20)
+		if (randNum<=20)
 			System.out.println("Who dares!?");
-		else 
+		else if (randNum>=10)
 			System.out.println("I'm a treasure");
+		else 
+			
 				
 int path = 0;
 path = JOptionPane.showInputDialog("Are you male or female?").toLowerCase().charAt(0);
