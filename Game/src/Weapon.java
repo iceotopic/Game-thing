@@ -20,18 +20,24 @@ public class Weapon {
 		if (weaponName.equalsIgnoreCase("Axe"))
 		{
 			name = "axe";
-			maxUse= 10;
+			maxUse = 10;
 			useCount = 0;
 			attackPoints = 10;			
 		}
-		else if (weaponName.equalsIgnoreCase("thSword"))
+		else if (weaponName.equalsIgnoreCase("Sword"))
 		{
-			name = " ";
-			maxUse= 00;
+			name = "Sword";
+			maxUse = 00;
 			useCount = 0;
 			attackPoints = 15;
 		}
-		
+		else if (weaponName.equalsIgnoreCase("Reality Check"))
+		{
+			name = "Reality Check";
+			maxUse = 00;
+			useCount = 00;
+			attackPoints = 00;
+		}
 	}
 	public int use()
 	{
