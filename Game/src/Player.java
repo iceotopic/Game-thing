@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class Player {
 
-
-	public int roomNum;
-
-	//initial health point (hp)
-
 	private int hp=50;
-	private int attack=10; 
+
+	private int attack=20   ; 
+	private Weapon w = new Weapon("Axe");
+
+
 	
+
 	public Player()
 	{
 	
@@ -28,7 +28,6 @@ public class Player {
 	
 	}
 	
-	
 	public int getHP()
 	{
 		return hp;
@@ -42,11 +41,14 @@ public class Player {
 		 int survivor = hp - a;
 	}
 
+
+
+	
+}
+
 	/*public class Weapon
 	{
 	public static void addAttack()	
 	}
 	}
 	*/
-}
-
