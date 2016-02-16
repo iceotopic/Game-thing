@@ -1,6 +1,13 @@
+import java.util.Random;
+public class Room 
 
-public class Room {
-	randNum = rand.nextInt(30);
+{
+	Enemy e1;
+	Treasure t1;
+	
+	public Room() {
+	
+	int randNum = rand.nextInt(30);
 	if (randNum<=20)
 	{
 		System.out.println("Who dares!?");
@@ -11,5 +18,10 @@ public class Room {
 	{
 		System.out.println("I'm a treasure");
 	}
-	else 
+	else
+	{
+		System.out.println();
+	}
+
+}
 }
