@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Player {
 
 
+	public int roomNum;
 
 	//initial health point (hp)
 
