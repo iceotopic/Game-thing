@@ -15,7 +15,7 @@ public class Treasure {
 	String rewardType;
 	int Chromosomes;
 	Random rand = new Random();
-	
+	("Well when life gives you lemons!")
 	public Treasure()
 	{
 		rewardType = types[rand.nextInt(types.length)];
