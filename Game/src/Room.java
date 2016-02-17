@@ -11,18 +11,14 @@ public class Room
 	int randNum = rand.nextInt(30);
 	if (randNum<=20)
 	{
-		System.out.println("Who dares!?");
+		System.out.println("Who dares!?"); //move to class
 		e1 = new Enemy();
 	}
-	else if (randNum>=10)
+	else if(randNum>=10)
 	{
-		System.out.println("I'm a treasure");
-		t1= null;
+		System.out.println("Well when life gives you lemons!"); //move to class
+		t1= new Treasure();
 	}
-	else
-	{
-		System.out.println("Wll when life gives you lemons!");
-	}
+}
+}
 
-}
-}

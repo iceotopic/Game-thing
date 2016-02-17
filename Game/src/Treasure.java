@@ -19,7 +19,7 @@ public class Treasure {
 	public Treasure()
 	{
 		rewardType = types[rand.nextInt(types.length)];
-		
+		Chromosomes = rand.nextInt(11)+10;
 	}
 	
 	public Treasure(int tType)
