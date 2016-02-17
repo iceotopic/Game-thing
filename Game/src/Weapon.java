@@ -17,26 +17,26 @@ public class Weapon {
 	
 	public Weapon(String weaponName)
 	{
-		if (weaponName.equalsIgnoreCase("Axe"))
+		if (weaponName.equalsIgnoreCase("R0sseta Stone"))
 		{
-			name = "axe";
-			maxUse = 10;
+			name = "R0sseta Stone";
+			maxUse = 15;
 			useCount = 0;
 			attackPoints = 10;			
 		}
-		else if (weaponName.equalsIgnoreCase("Sword"))
+		else if (weaponName.equalsIgnoreCase("Katana"))
 		{
-			name = "Sword";
-			maxUse = 00;
+			name = "Katana";
+			maxUse = 10;
 			useCount = 0;
-			attackPoints = 15;
+			attackPoints = 30;
 		}
 		else if (weaponName.equalsIgnoreCase("Reality Check"))
 		{
 			name = "Reality Check";
-			maxUse = 00;
+			maxUse = 5;
 			useCount = 00;
-			attackPoints = 00;
+			attackPoints = 80;
 		}
 	}
 	public int use()
