@@ -5,13 +5,13 @@ public class Enemy {
 	
 	private int hp=50;
 	
-	//System.out.println("Who dares!?");
 	public int getHP()
 	{
 		return hp;
 	}
 	public void attack(Player p)
 	{
+		System.out.println("Who dares!?");
 		p.defend(attack);
 	}
 	

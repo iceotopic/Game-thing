@@ -1,8 +1,10 @@
 import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 public class Player {
 
 	private int hp=50;
-
+	
 	private int attack=20   ; 
 	private Weapon w = new Weapon("Axe");
 
@@ -15,7 +17,7 @@ public class Player {
 	String characterName;
 	Scanner scanner1 = new Scanner(System.in);
 
-	System.out.print("Enter character name   ===>>");
+	System.out.print("What do they call you?   ===>>");
 	characterName = scanner1.                     nextLine();
 	
 	System.out.print("Hi ");
@@ -24,9 +26,10 @@ public class Player {
 	System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man");
 	System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
 	//Add something to use weapon 
-	//Eating – increases the players health by 10
+//Eating – increases the players health by 10
 	
 	}
+	
 	
 	public int getHP()
 	{

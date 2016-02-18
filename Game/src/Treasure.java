@@ -15,7 +15,7 @@ public class Treasure {
 	String rewardType;
 	int Chromosomes;
 	Random rand = new Random();
-	("Well when life gives you lemons!")
+	("Well when life gives you lemons!");
 	public Treasure()
 	{
 		rewardType = types[rand.nextInt(types.length)];
@@ -30,7 +30,7 @@ public class Treasure {
 	
 	public void display ()
 	{
-		System.out.println("The " + rewardType + "gives you " + Chromosomes + " Chromosomes.");
+		System.out.println("Well when life gives you lemons!");
 	}
 	
 
