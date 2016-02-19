@@ -1,13 +1,15 @@
 import javax.swing.JOptionPane;
 import java.util.Random;
+import java.util.Scanner;
 
 //main class
 public class Game {
 	static int randNum;
 	static Random rand = new Random();
-	public static void main(String[] args) {
-				
-
+	public static void main(String[] args) { 
+	
+		
+		
 		int path = 0;
 		path = JOptionPane.showInputDialog("Do you venture to the right, or brave the left?").toLowerCase().charAt(0); // change to "would you like to buy something or journey the path" this should be able call store to buy something or it runs random class in Room
 		Player me = new Player();
@@ -24,6 +26,6 @@ public class Game {
 			
 		} while (me.getHP() > 0);
 		*/
+	
 	}
-
 }
