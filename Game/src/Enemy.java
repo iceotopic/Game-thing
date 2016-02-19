@@ -5,6 +5,7 @@ public class Enemy {
 	
 	private int hp=50;
 	
+	//System.out.println("Who dares!?");
 	public int getHP()
 	{
 		return hp;

@@ -7,8 +7,9 @@ public class Game {
 	static Random rand = new Random();
 	public static void main(String[] args) {
 				
-int path = 0;
-path = JOptionPane.showInputDialog("Are you male or female?").toLowerCase().charAt(0);
+
+		int path = 0;
+path = JOptionPane.showInputDialog("Do you venture to the right, or brave the left?").toLowerCase().charAt(0);
 		Player me = new Player();
 		
 		Room[] rooms = new Room[30];
