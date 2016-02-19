@@ -44,10 +44,12 @@ public class Player {
 		}
 	}
 }
-
-	/*public class Weapon
+//// Finish 
+	public void Weapon
 	{
-	public static void addAttack()	
+	public static void addAttack(attack)
+	{
+		Boost= attack + 
 	}
 	}
-	*/
+	
