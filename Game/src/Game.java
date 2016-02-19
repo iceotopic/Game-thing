@@ -9,7 +9,7 @@ public class Game {
 				
 
 		int path = 0;
-		path = JOptionPane.showInputDialog("Do you venture to the right, or brave the left?").toLowerCase().charAt(0);
+		path = JOptionPane.showInputDialog("Do you venture to the right, or brave the left?").toLowerCase().charAt(0); // change to "would you like to buy something or journey the path" this should be able call store to buy something or it runs random class in Room
 		Player me = new Player();
 		
 	/*	Room[] rooms = new Room[30];
