@@ -9,12 +9,15 @@ public class Game {
 	public static void main(String[] args) { 
 	
 		
-		
-		int path = 0;
-		path = JOptionPane.showInputDialog("Do you venture to the right, or brave the left?").toLowerCase().charAt(0); // change to "would you like to buy something or journey the path" this should be able call store to buy something or it runs random class in Room
 		Player me = new Player();
+		/*
+		int path = 0;
+		path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase().charAt(0);
+		*/
+		{
 		
-	/*	Room[] rooms = new Room[30];
+		}
+		Room[] rooms = new Room[70];
 		
 		for (int i = 0; i < rooms.length; i++)
 		{
@@ -25,7 +28,7 @@ public class Game {
 		{
 			
 		} while (me.getHP() > 0);
-		*/
+		
 	
 	}
 }

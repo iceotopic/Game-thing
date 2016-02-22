@@ -1,12 +1,14 @@
+import java.awt.Component;
 import java.util.Scanner;
 
+import javax.swing.Icon;
 import javax.swing.JOptionPane;
 public class Player {
 
 	private int hp=50;
 	private int attack=20   ; 
 	private Weapon w = new Weapon("Axe");
-	
+	//Game class;
 
 	public Player()
 	{
@@ -22,12 +24,16 @@ public class Player {
 	System.out.print("! ");
 	System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man!");
 	System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
-	//Add something to use weapon 
+	int path = 0;
+	path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase().charAt(0);//Add something to use weapon 
 //Eating – increases the players health by 10
 	
+	}	
+	
+	private void setLabel(String string) {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	
 	public int getHP()
 	{
 		return hp;
@@ -43,13 +49,14 @@ public class Player {
 			System.out.println("");
 		}
 	}
-}
+
+
 //// Finish 
-	public void Weapon
+
+	public void addAttack(Weapon w)
 	{
-	public static void addAttack(attack)
-	{
-		Boost= attack + 
+		int boostAttack = attack + 5;
 	}
-	}
+
+		}
 	
