@@ -1,4 +1,5 @@
 import java.awt.Component;
+import javax.swing.JDialog;
 import java.util.Scanner;
 
 import javax.swing.Icon;
@@ -9,7 +10,7 @@ public class Player {
 	private int attack=20   ; 
 	private Weapon w = new Weapon("Axe");
 	//Game class;
-
+	int path = 0;
 	public Player()
 	{
 	
@@ -24,11 +25,16 @@ public class Player {
 	System.out.print("! ");
 	System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man!");
 	System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
-	int path = 0;
-	path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase().charAt(0);//Add something to use weapon 
-//Eating – increases the players health by 10
-	
-	}	
+		
+	    JDialog.setDefaultLookAndFeelDecorated(true);
+	    Object[] selectionValues = { "Journey", "Store",};
+	    String initialSelection = "Adventure";
+	    Object selection = JOptionPane.showInputDialog(null, "Would you like to buy something from the store or journey into the unknown?",
+	        "Selection Time", JOptionPane.QUESTION_MESSAGE, null, selectionValues, initialSelection);
+	    System.out.println(selection);
+	    if (selection = 'Store')
+	  }
+		
 	
 	private void setLabel(String string) {
 		// TODO Auto-generated method stub
