@@ -1,17 +1,23 @@
 import javax.swing.JOptionPane;
 import java.util.Random;
+import java.util.Scanner;
 
 //main class
 public class Game {
 	static int randNum;
 	static Random rand = new Random();
-	public static void main(String[] args) {
-				
-int path = 0;
-path = JOptionPane.showInputDialog("Are you male or female?").toLowerCase().charAt(0);
-		Player me = new Player();
+	public static void main(String[] args) { 
+	
 		
-		Room[] rooms = new Room[30];
+		Player me = new Player();
+		/*
+		int path = 0;
+		path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase().charAt(0);
+		*/
+		{
+		
+		}
+		Room[] rooms = new Room[70];
 		
 		for (int i = 0; i < rooms.length; i++)
 		{
@@ -22,6 +28,7 @@ path = JOptionPane.showInputDialog("Are you male or female?").toLowerCase().char
 		{
 			
 		} while (me.getHP() > 0);
+		
+	
 	}
-
 }

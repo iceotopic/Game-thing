@@ -11,6 +11,7 @@ public class Enemy {
 	}
 	public void attack(Player p)
 	{
+		System.out.println("Who dares!?");
 		p.defend(attack);
 	}
 	
