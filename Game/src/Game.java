@@ -10,10 +10,6 @@ public class Game {
 	
 		
 		Player me = new Player();
-		/*
-		int path = 0;
-		path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase().charAt(0);
-		*/
 		{
 		
 		}

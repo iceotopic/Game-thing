@@ -31,6 +31,7 @@ public class Treasure {
 	public void display ()
 	{
 		System.out.println("Well when life gives you lemons!");
+		// gives you chromosomes
 	}
 	
 
