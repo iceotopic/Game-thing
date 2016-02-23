@@ -55,7 +55,17 @@ int path = 0;
 	        "Selection Time", JOptionPane.QUESTION_MESSAGE, null, selectionValues, initialSelection);
 	    System.out.println(selection);
 	    if (selection.equals("Store"))
-	    	System.out.println("Store");
+	    {
+	    	 JDialog.setDefaultLookAndFeelDecorated(true);
+	 	    String[] selectionValues1 = { "Strong Armor", "Medium Armor", "Weak Armor", "Tasty Food," ,"Microwaved Food", "School Food", "Holy Sword of the Titans", "The Dragons Fang", "or", "Grandpas' Hand-me down"};
+	 	    String initialSelection1 = "Stroe";
+	 	    String selection1 = (String) JOptionPane.showInputDialog(null, "What would you like??",
+	 	        "Welcome to the Store", JOptionPane.QUESTION_MESSAGE, null, selectionValues, initialSelection);
+	 	    System.out.println(selection1);
+	    }
+	    else
+	    	//This should then run the room class
+	    
 	  }
 		
 	
