@@ -21,7 +21,7 @@ public class Player {
 	System.out.print("Hi ");
 	System.out.print(characterName);
 	System.out.print("!");
-	System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man");
+	System.out.println(" Your health is at " + hp + " points right now, but when it runs out... it'll be game over, man.");
 	System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
 	//Add something to use weapon 
 	//Eating – increases the players health by 10
@@ -39,7 +39,7 @@ public class Player {
 	public void defend(int a)
 	{
 		 int survivor = hp - a;
-	}
+	}	
 
 }
 
