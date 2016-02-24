@@ -11,11 +11,11 @@ public class Room
 	int randNum = rand.nextInt(30);
 	if (randNum<=20)
 	{
-		e1 = new Enemy();
+		t1 = new Treasure();
 	}
-	else if(randNum>=10)
+	else if(randNum>=21)
 	{
-		t1= new Treasure();
+		e1= new Enemy();
 	}
 }
 }

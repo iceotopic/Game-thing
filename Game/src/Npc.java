@@ -1,4 +1,4 @@
-public class Npc {
+                                                               public class Npc {
 //hello
 	
 	private String message;
