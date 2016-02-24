@@ -4,26 +4,30 @@ public class Treasure {
 
 	
 	//
-	String[] types = {"Chromosome Cluster", "Weapon", "Ammunition Clip"};
+	String[] type = {"Chromosome Cluster"};
 	String rewardType;
 	int Chromosomes;
 	Random rand = new Random();
-	("Well when life gives you lemons!")
+	
 	public Treasure()
 	{
-		rewardType = types[rand.nextInt(types.length)];
+		rewardType = type[rand.nextInt(type.length)];
 		Chromosomes = rand.nextInt(11)+10;
 	}
 	
 	public Treasure(int tType)
 	{
-		rewardType = types[tType];
+		rewardType = type[tType];
 
 	}
 	
 	public String toString ()
 	{
+
+
+		System.out.println("Well when life gives you lemons!");
 		return ("The " + rewardType + "gives you " + Chromosomes + " Chromosomes.");
+ 
 	}
 	
 	
