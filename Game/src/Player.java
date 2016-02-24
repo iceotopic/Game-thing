@@ -64,7 +64,7 @@ int path = 0;
 	 	    System.out.println(selection1);
 	    }
 	    else
-	    	//This should then run the room class
+	    	new Room();
 	    
 	  }
 		
