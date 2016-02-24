@@ -46,7 +46,7 @@ int path = 0;
 	 	    String initialSelection1 = "Stroe";
 	 	    String selection1 = (String) JOptionPane.showInputDialog(null, "Select an item for your quest",
 	 	        "Welcome to the Store", JOptionPane.QUESTION_MESSAGE, null, selectionValues1, initialSelection1);
-	 	    System.out.println("Oh you want just one? " + "'" + selection1 + "'" + " Well jokes on you because I cant program any that.");
+	 	    System.out.println("Oh you want just one? " + "'" + selection1 + "'" + " Well jokes on you because I cant program that.");
 	    }
 	    
 	    
