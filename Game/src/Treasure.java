@@ -26,8 +26,12 @@ public class Treasure {
 
 
 		System.out.println("Well when life gives you lemons!");
+
 		return ("The " + rewardType + "gives you " + Chromosomes + " Chromosomes.");
  
+
+		
+
 	}
 	
 	
