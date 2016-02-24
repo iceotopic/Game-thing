@@ -16,7 +16,7 @@ public class Player {
 	// Game class;
 int path = 0;
 	public Player() {
-
+/*
 		String characterName;
 		Scanner scanner1 = new Scanner(System.in);
 
@@ -25,29 +25,14 @@ int path = 0;
 
 		System.out.print("Hi ");
 		System.out.print(characterName);
-
 		System.out.print("! ");
-		System.out
-				.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man!");
-
+		System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man!");
 		System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
 		int path = 0;
-		path = JOptionPane.showInputDialog("Would you like to buy something or journey into the unknown?").toLowerCase()
-				.charAt(0);// Add something to use weapon
-		// Eating – increases the players health by 10
-
-	
-
-
-	System.out.print("What do they call you?   ===>>");
-	characterName = scanner1.                     nextLine();
-	
-	System.out.print("Hi ");
-	System.out.print(characterName);
-	System.out.print("! ");
-	System.out.println("Your health is at " + hp + " points right now, when it runs out... it'll be game over man!");
-	System.out.println("Pick up weapons and kill some bad guys! Now let's go on an adventure!");
-		
+		*/
+		path = JOptionPane.showInputDialog("Welcome to the game, this is the product of about 4 and a half years of making. I hope you like it. What would you like to be called?").toLowerCase()
+				.charAt(0);
+		System.out.println("I dont really care what youre name is");
 	    JDialog.setDefaultLookAndFeelDecorated(true);
 	    String[] selectionValues = { "Journey", "Store",};
 	    String initialSelection = "Adventure";
@@ -57,14 +42,13 @@ int path = 0;
 	    if (selection.equals("Store"))
 	    {
 	    	 JDialog.setDefaultLookAndFeelDecorated(true);
-	 	    String[] selectionValues1 = { "Strong Armor", "Medium Armor", "Weak Armor", "Tasty Food," ,"Microwaved Food", "School Food", "Holy Sword of the Titans", "The Dragons Fang", "or", "Grandpas' Hand-me down"};
+	 	    String[] selectionValues1 = { "Armor of the Black Knight", "Magically Healing Tasty Food,", "Holy Sword of the Titans",  "A game that's programmed correctly"};
 	 	    String initialSelection1 = "Stroe";
-	 	    String selection1 = (String) JOptionPane.showInputDialog(null, "What would you like??",
-	 	        "Welcome to the Store", JOptionPane.QUESTION_MESSAGE, null, selectionValues, initialSelection);
-	 	    System.out.println(selection1);
+	 	    String selection1 = (String) JOptionPane.showInputDialog(null, "Select an item for your quest",
+	 	        "Welcome to the Store", JOptionPane.QUESTION_MESSAGE, null, selectionValues1, initialSelection1);
+	 	    System.out.println("Oh you want just one? " + "'" + selection1 + "'" + " Well jokes on you because I cant program any that.");
 	    }
-	    else
-	    	new Room();
+	    
 	    
 	  }
 		

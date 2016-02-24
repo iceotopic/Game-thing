@@ -6,14 +6,13 @@ import java.util.Scanner;
 public class Game {
 	static int randNum;
 	static Random rand = new Random();
+	public static int roomNum = 0;
+	public static Room[] rooms = new Room[999];
+	
 	public static void main(String[] args) { 
 	
-		
 		Player me = new Player();
-		{
 		
-		}
-		Room[] rooms = new Room[999];
 		
 		for (int i = 0; i < rooms.length; i++)
 		{
@@ -25,6 +24,7 @@ public class Game {
 			
 		} while (me.getHP() > 0);
 		
-	
+	rooms[roomNum].runRoom();
+		
 	}
 }

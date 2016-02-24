@@ -18,5 +18,9 @@ public class Room
 		e1= new Enemy();
 	}
 }
+	public void runRoom()
+	{
+		System.out.println("You're in a room with a " + t1.toString() + " and  a " + e1);
+	}
 }
 

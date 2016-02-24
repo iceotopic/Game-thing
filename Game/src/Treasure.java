@@ -15,9 +15,10 @@ public class Treasure {
 	String rewardType;
 	int Chromosomes;
 	Random rand = new Random();
-	("Well when life gives you lemons!");
+	
 	public Treasure()
 	{
+		System.out.print("Well when life gives you lemons!");
 		rewardType = type[rand.nextInt(type.length)];
 		Chromosomes = rand.nextInt(11)+10;
 	}

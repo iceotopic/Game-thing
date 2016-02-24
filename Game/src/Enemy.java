@@ -20,6 +20,7 @@ public class Enemy {
 		 int survivor = health - a;
 		 if (health == 0) {
 				System.out.println("The enemy's last words were 'Wubba Lubba Dub-dub...'");
+				 //int reward = chromosomePoints + 10
 			}
 	}
 }
