@@ -29,7 +29,7 @@ public class Armor {
 			chromosomePoints = 30;
 		}
 	}
-	public int damagePoints()
+	public int armorPoints()
 	{
 		return armorPoints - attackPoints;
 	}

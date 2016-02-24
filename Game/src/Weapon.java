@@ -1,3 +1,4 @@
+
 public class Weapon {
 
 	int attackPoints;
