@@ -13,7 +13,7 @@ public class Game {
 		{
 		
 		}
-		Room[] rooms = new Room[70];
+		Room[] rooms = new Room[999];
 		
 		for (int i = 0; i < rooms.length; i++)
 		{
