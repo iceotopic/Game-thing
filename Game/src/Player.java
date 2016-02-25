@@ -49,7 +49,12 @@ int path = 0;
 	 	    System.out.println("Oh you want just one? " + "'" + selection1 + "'" + " Well jokes on you because I cant program that.");
 	    }
 	    
-	    
+	    JDialog.setDefaultLookAndFeelDecorated(true);
+	    String[] selectionValues2 = { "Show him whats up", "Bounce out ouf this joint",};
+	    String initialSelection2 = "Adventure";
+	    String selection2 = (String) JOptionPane.showInputDialog(null, "You ventured down a rough rocky pass and an enemy got in your way... What do you do?",
+	        "Challenger approaches", JOptionPane.QUESTION_MESSAGE, null, selectionValues2, initialSelection2);
+	    System.out.println("Oh so you wanna " + selection2 + " Well turns out he was an civilian in need of help. And to think you were about to " + selection2);
 	  }
 		
 	
