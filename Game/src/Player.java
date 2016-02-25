@@ -72,6 +72,7 @@ int path = 0;
 
 	private void setLabel(String string) {
 		// TODO Auto-generated method stub
+		// update
 
 	}
 
@@ -82,6 +83,7 @@ int path = 0;
 	public void attack(Enemy e) {
 		e.defend(attack);
 	}
+	
 
 	public void defend(int a) {
 		int survivor = hp - a;
