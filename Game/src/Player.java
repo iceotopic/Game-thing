@@ -10,8 +10,8 @@ import javax.swing.JOptionPane;
 
 public class Player {
 
-	private int hp = 50;
-	private int attack = 20;
+	int hp = 50;
+	int attack = 20;
 	private Weapon w = new Weapon("Axe");
 	// Game class;
 int path = 0;
@@ -72,6 +72,7 @@ int path = 0;
 
 	private void setLabel(String string) {
 		// TODO Auto-generated method stub
+		// update
 
 	}
 
@@ -82,6 +83,7 @@ int path = 0;
 	public void attack(Enemy e) {
 		e.defend(attack);
 	}
+	
 
 	public void defend(int a) {
 		hp = hp - a;
@@ -96,6 +98,6 @@ int path = 0;
 	public void addAttack(Weapon w) {
 		int boostAttack = attack + 5;
 	}
-
+	
 }
 

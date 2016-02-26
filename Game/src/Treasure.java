@@ -2,14 +2,7 @@ import java.util.Random;
 
 public class Treasure {
 
-	/*These are the items that are given to the player throughout the game 
-	{
-	String type; 
-	String rewardtype;
-	String Chromosomes: This is what the player is rewarded with upon completing tasks or doing anything profitable
-	Int.reward amt (amount): This is the amount of chromosomes the player receives upon completing a profitable task
-	}
-	*/
+	
 	//
 	String[] type = {"Chromosome Cluster"};
 	String rewardType;
@@ -29,11 +22,19 @@ public class Treasure {
 
 	}
 	
-	public void display ()
+	public String toString ()
 	{
+
+
 		System.out.println("Well when life gives you lemons!");
-		// gives you chromosomes
+
+		return ("The " + rewardType + "gives you " + Chromosomes + " Chromosomes.");
+ 
+
+		
+
 	}
 	
-
+	
+	
 }

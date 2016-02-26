@@ -1,20 +1,22 @@
 //import java.util.Random;
 
 public class Food {
-//mark
+
 	
 	int healthPoints;
 	String name;
-	int useCount=0;
-	int maxUse;
 	int attackPoints;
+	int hp;
+	int chromosomePoints;
+	int playerPoints;
 	
 		public Food(String foodName)
 	{
 		if (foodName.equalsIgnoreCase("CONFEDERATE CUSH"))
 		{
 			name = "CONFEDERATE CUSH";
-			healthPoints = 10;			
+			healthPoints = 10;
+			chromosomePoints = 5;
 		}
 		else if (foodName.equalsIgnoreCase("Spotted dick"
 				+ "http://assets.epicurious.com/photos/"
@@ -22,6 +24,7 @@ public class Food {
 		{
 			name = "Spotted dick ";
 			healthPoints = 20;
+			chromosomePoints = 10;
 		}
 		else if (foodName.equalsIgnoreCase("megapussi"
 				+ "http://www.mindjunker.com/"
@@ -29,11 +32,16 @@ public class Food {
 		{
 			name = "megapussi";
 			healthPoints = 30;
+			chromosomePoints = 15;
 		}
 	}
 	public int healthPoints()
 	{
-		return healthPoints - attackPoints;
+		return healthPoints + hp;
+		
 	}
-	
+	public int chromosomePoints()
+	{
+		return playerPoints - chromosomePoints;
+	}
 }

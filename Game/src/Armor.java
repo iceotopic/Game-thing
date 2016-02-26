@@ -4,7 +4,7 @@ public class Armor {
 
 	int armorPoints;
 	String name;
-	int attackPoints;
+	int attack;
 	int chromosomePoints;
 	int playerPoints;
 
@@ -31,7 +31,7 @@ public class Armor {
 	}
 	public int armorPoints()
 	{
-		return armorPoints - attackPoints;
+		return armorPoints - attack;
 	}
 	public int chromosomePoints()
 	{
