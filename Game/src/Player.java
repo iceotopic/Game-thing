@@ -92,7 +92,7 @@ int path = 0;
 			System.out.println("It's game over man! Mistakes were... If you wanna win try it again, but make the right choices.");
 		}
 	}
-
+//pasta pizza
 	//// Finish
 
 	public void addAttack(Weapon w) {
