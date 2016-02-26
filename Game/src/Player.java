@@ -89,7 +89,7 @@ int path = 0;
 		hp = hp - a;
 		System.out.println("You took a good blow, your health is at " + hp + " health points, the enemy said Let's see how much more you can take'");
 		if (hp <= 0) {
-			System.out.println("It's game over man! Mistakes were... If you wanna win try it again, but make the right choices.");
+			System.out.println("You see all this text above you? its because you made poor life choices college. It's game over man! Mistakes were made... If you wanna win, try it again, but make the right choices. Heres a hint pn how to win");
 		}
 	}
 //pasta pizza
