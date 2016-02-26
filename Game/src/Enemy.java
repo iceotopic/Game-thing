@@ -17,11 +17,13 @@ public class Enemy {
 	
 	public void defend(int a)
 	{
-		 int survivor = health - a;
-		 if (health == 0) {
+		 health = health - a;
+		 System.out.println("The enemy lost health . . . He how has " + health + " health points");
+		 if (health <= 0) {
 				System.out.println("The enemy's last words were 'Wubba Lubba Dub-dub...'");
 				 //int reward = chromosomePoints + 10
 			}
 	}
+
 }
-	
+//System.out.println("Enemy says: I'm supposed to fight you... but not working");

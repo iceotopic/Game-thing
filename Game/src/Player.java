@@ -54,8 +54,14 @@ int path = 0;
 	    String initialSelection2 = "Adventure";
 	    String selection2 = (String) JOptionPane.showInputDialog(null, "You ventured down a rough rocky pass and an enemy got in your way... What do you do?",
 	        "Challenger approaches", JOptionPane.QUESTION_MESSAGE, null, selectionValues2, initialSelection2);
-	    
+	    Enemy en = new Enemy();
 	    System.out.println("Oh, so you wanna " + selection2 + " Well turns out he was an civilian in need of help. And to think you were about to " + selection2);
+	    
+	    while (en.health >0 && hp >0)
+	    {
+	    	en.attack(this);
+	    	this.attack(en);
+	    }
 	}
 
 
@@ -68,14 +74,14 @@ int path = 0;
 		return hp;
 	}
 
-/*	public void attack(Enemy e) {
+	public void attack(Enemy e) {
 		e.defend(attack);
 	}
-*/
-	public void defend(int a) {
-		int survivor = hp - a;
 
-		if (hp == 0) {
+	public void defend(int a) {
+		hp = hp - a;
+
+		if (hp <= 0) {
 			System.out.println("");
 		}
 	}
@@ -87,3 +93,4 @@ int path = 0;
 	}
 
 }
+
