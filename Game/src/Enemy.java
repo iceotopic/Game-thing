@@ -11,7 +11,7 @@ public class Enemy {
 	}
 	public void attack(Player p)
 	{
-		System.out.println("Who dares!?");
+		System.out.println("I hope I dont die!");
 		p.defend(attack);
 	}
 	
@@ -20,7 +20,7 @@ public class Enemy {
 		 health = health - a;
 		 System.out.println("The enemy lost health . . . He how has " + health + " health points");
 		 if (health <= 0) {
-				System.out.println("The enemy's last words were 'Wubba Lubba Dub-dub...'");
+				System.out.println("The enemy's last words were 'But I didn't want to die...'");
 				 //int reward = chromosomePoints + 10
 			}
 	}

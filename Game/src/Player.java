@@ -52,7 +52,7 @@ int path = 0;
 	    JDialog.setDefaultLookAndFeelDecorated(true);
 	    String[] selectionValues2 = { "Show him whats up", "Bounce out ouf this joint",};
 	    String initialSelection2 = "Adventure";
-	    String selection2 = (String) JOptionPane.showInputDialog(null, "You ventured down a rough rocky pass and an enemy got in your way... What do you do?",
+	    String selection2 = (String) JOptionPane.showInputDialog(null, "You walked into the super enemy's house and ate his food, he's all mad at you now, What do you do?",
 	        "Challenger approaches", JOptionPane.QUESTION_MESSAGE, null, selectionValues2, initialSelection2);
 	    Enemy en = new Enemy();
 	    System.out.println("Oh, so you wanna " + selection2 + " Well turns out he was an civilian in need of help. And to think you were about to " + selection2);
@@ -80,9 +80,9 @@ int path = 0;
 
 	public void defend(int a) {
 		hp = hp - a;
-
+		System.out.println("You took a good blow, your health is at " + hp + " health points");
 		if (hp <= 0) {
-			System.out.println("");
+			System.out.println("It's game over man! Play this again why dont you try again?");
 		}
 	}
 
