@@ -57,10 +57,15 @@ int path = 0;
 	    Enemy en = new Enemy();
 	    System.out.println("Oh, so you wanna " + selection2 + " Well turns out he was an civilian in need of help. And to think you were about to " + selection2);
 	    
+	    while (hp >0)
+	    {
+	  
 	    while (en.health >0 && hp >0)
 	    {
 	    	en.attack(this);
 	    	this.attack(en);
+	    }
+	    en =new Enemy();
 	    }
 	}
 
@@ -80,9 +85,9 @@ int path = 0;
 
 	public void defend(int a) {
 		hp = hp - a;
-		System.out.println("You took a good blow, your health is at " + hp + " health points");
+		System.out.println("You took a good blow, your health is at " + hp + " health points, the enemy said Let's see how much more you can take'");
 		if (hp <= 0) {
-			System.out.println("It's game over man! Play this again why dont you try again?");
+			System.out.println("It's game over man! Mistakes were... If you wanna win try it again, but make the right choices.");
 		}
 	}
 
